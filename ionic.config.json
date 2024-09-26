@@ -1,0 +1,7 @@
+{
+  "name": "ifave-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
