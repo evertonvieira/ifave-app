@@ -3,7 +3,7 @@ name: Release Workflow
 on:
   push:
     branches:
-      - develop  # O workflow será acionado em merges para a branch develop
+      - 'release/*'  # O workflow será acionado em merges para a branch develop
 
 jobs:
   generate-tag:
@@ -100,7 +100,6 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
           title: "Release v${{ steps.version.outputs.new_version }}"
           body: "This PR is automatically generated for the release version."
           base: master
