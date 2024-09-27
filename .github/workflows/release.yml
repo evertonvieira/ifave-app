@@ -82,6 +82,7 @@ jobs:
           retention-days: 3
 
   create-release-branch:
+    name: Create Pull Request
     runs-on: ubuntu-latest
     needs: prepare_tools
     if: success()  # Garante que o job só seja executado se a tag for gerada com sucesso
