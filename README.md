@@ -1,5 +1,10 @@
 # IFAVE App
 
+[![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/evertonvieira/ifave-app)
+[![Ionic](https://img.shields.io/badge/Ionic-%233880FF.svg?style=for-the-badge&logo=Ionic&logoColor=white)](https://ionicframework.com/)
+[![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)](https://angular.dev/)
+
+
 Este é um projeto desenvolvido com Ionic. Este README contém informações sobre como configurar e executar o projeto em seu ambiente local.
 
 ## Requisitos
